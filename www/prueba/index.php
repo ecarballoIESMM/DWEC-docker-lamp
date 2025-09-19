@@ -8,7 +8,7 @@
     <body>
         <div class="container-fluid">
             <?php
-                echo "<h1>¡¡¡¡¡Ejemplo de Lamp!!!!!</h1>";
+                echo "<h1>¡¡Ejemplo de Lamp!!</h1>";
 
                 $conn = mysqli_connect('db', 'user', 'passwd');   
                 $database = mysqli_select_db($conn, 'dbname');  
